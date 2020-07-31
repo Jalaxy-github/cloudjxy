@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * jxy
  */
 @RestController
+@RefreshScope
 public class ConfigClientController {
 
     @Value("${config.info}")
